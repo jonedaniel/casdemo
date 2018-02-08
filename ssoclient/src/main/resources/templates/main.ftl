@@ -10,7 +10,7 @@
 <h1 align="center">WELCOME!</h1>
 <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-8">欢迎查看我们的主页!</div>
+    <div class="col-md-8">${username}<h3>欢迎查看我们的主页!</h3></div>
     <div class="col-md-1"></div>
 </div>
 </body>
