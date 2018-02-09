@@ -2,16 +2,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>主页</title>
+    <title>登出页面</title>
     <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
     <script type="text/javascript" src="/js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="/js/boostrap.js"></script>
     <script type="text/javascript">
         $(function () {
-            $("#logoutBtn").click(function () {
-                $.ajax("/logout");
-                window.location.href="${logoutUrl}";
-            })
+
         })
     </script>
 </head>
@@ -20,9 +17,7 @@
 <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8">
-        ${username}
-        <h3>欢迎查看我们的主页!</h3>
-        <button class="btn-danger btn-lg" id="logoutBtn">退出</button>
+        <h3>欢迎登出!</h3>
     </div>
     <div class="col-md-1"></div>
 </div>
