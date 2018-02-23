@@ -1,6 +1,6 @@
 package com.example.ssoclient.controller;
 
-import com.example.ssoclient.util.UserContext;
+import com.example.cascommon.util.UserContext;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

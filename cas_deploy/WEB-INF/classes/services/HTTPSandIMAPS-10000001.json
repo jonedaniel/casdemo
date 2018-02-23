@@ -4,5 +4,12 @@
   "name" : "HTTPS and IMAPS",
   "id" : 10000001,
   "description" : "This service definition authorizes all application urls that support HTTPS and IMAPS protocols.",
-  "evaluationOrder" : 10000
+  "evaluationOrder" : 10000,
+  "logoutType" : "FRONT_CHANNEL",
+  "logoutUrl" : "https://www.sso.com:8442/logout",
+  "accessStrategy" : {
+    "@class" : "org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy",
+    "enabled" : true,
+    "ssoEnabled" : true
+  }
 }

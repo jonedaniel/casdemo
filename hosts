@@ -21,5 +21,4 @@
 #	::1             localhost
 0.0.0.0 account.jetbrains.com
 127.0.0.1 www.sso.com
-127.0.0.1 www.client1.com
-127.0.0.1 www.client2.com
+127.0.0.1 www.client.com

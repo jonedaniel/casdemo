@@ -1,18 +1,14 @@
 package com.example.ssoclient;
 
-import net.unicon.cas.client.configuration.CasClientConfigurerAdapter;
+import com.example.cascommon.config.FilterConfiguration;
 import net.unicon.cas.client.configuration.EnableCasClient;
-import org.jasig.cas.client.session.SingleSignOutFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-
-import java.util.HashMap;
+import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
 @EnableCasClient
+@Import(FilterConfiguration.class)
 public class SsoclientApplication  {
 
 	public static void main(String[] args) {
