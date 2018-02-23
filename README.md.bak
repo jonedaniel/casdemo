@@ -10,5 +10,3 @@
 9. 在client1中添加获取用户名工具类.
 10. 单点登出测试
 0. [Reference](https://apereo.github.io/cas/5.2.x/installation/Maven-Overlay-Installation.html)
-0. 自定义登陆页面(略...)
-0. 整合spring security(敬请期待)
