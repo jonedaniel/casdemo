@@ -1,4 +1,4 @@
-package com.example.cascommon.util;
+package com.example.ssocommon.util;
 
 import org.jasig.cas.client.authentication.AttributePrincipal;
 import org.springframework.web.context.request.RequestContextHolder;

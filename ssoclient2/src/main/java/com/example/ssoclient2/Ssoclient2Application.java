@@ -1,4 +1,4 @@
-package com.example.casclient2;
+package com.example.ssoclient2;
 
 import com.example.cascommon.config.FilterConfiguration;
 import com.example.cascommon.util.UserContext;
@@ -21,13 +21,13 @@ import java.io.IOException;
 @EnableCasClient
 @Controller
 @Import(FilterConfiguration.class)
-public class Casclient2Application {
+public class Ssoclient2Application {
 
     @Value("${logoutUrl}")
     private String logoutUrl;
 
 	public static void main(String[] args) {
-		SpringApplication.run(Casclient2Application.class, args);
+		SpringApplication.run(Ssoclient2Application.class, args);
 	}
 
 	@RequestMapping(method = RequestMethod.GET,value = "/main")

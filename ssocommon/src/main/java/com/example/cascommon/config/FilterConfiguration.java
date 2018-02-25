@@ -1,4 +1,4 @@
-package com.example.cascommon.config;
+package com.example.ssocommon.config;
 
 import org.jasig.cas.client.session.SingleSignOutFilter;
 import org.jasig.cas.client.session.SingleSignOutHttpSessionListener;
