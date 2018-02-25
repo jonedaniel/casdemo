@@ -12,3 +12,4 @@
 0. [Reference](https://apereo.github.io/cas/5.2.x/installation/Maven-Overlay-Installation.html)
 0. 自定义登陆页面(略...)
 0. 整合spring security(敬请期待)
+0. 获取docker image：  docker pull jonedaniel/casserver:latest
