@@ -13,3 +13,4 @@
 0. 自定义登陆页面(略...)
 0. 整合spring security(敬请期待)
 0. 获取docker image：  docker pull jonedaniel/casserver:latest
+0. 自制sso系统ssotest
