@@ -1,14 +1,13 @@
-package com.example.ssoclient2.filter;
+package com.example.ssoclient1.filter;
 
-import com.example.ssoclient2.util.CookieUtils;
-import com.example.ssoclient2.util.RedisUtil;
+import com.example.ssoclient1.util.CookieUtils;
+import com.example.ssoclient1.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.*;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

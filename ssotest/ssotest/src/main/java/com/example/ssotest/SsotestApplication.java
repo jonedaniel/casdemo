@@ -78,12 +78,12 @@ public class SsotestApplication {
 
             if (StringUtils.hasLength(service)) {
                 String ticket = UUID.randomUUID().toString().substring(0, 6);
-                redisUtil.set(ticket, "", 1000 * 10L);
+                redisUtil.set(ticket, "ticket", 1000 * 10L);
                 String[] split = service.split("/");
                 StringBuilder domain = new StringBuilder(10);
                 domain.append(split[2].split(":")[0]);
                 System.out.println(domain);
-                CookieUtils.addCookie(response, "ticket", ticket, 1000 * 10, new String(domain));
+                CookieUtils.addCookie(response, "ticket", ticket, 20, new String(domain));
                 return "redirect:" + service;
             }
         }
