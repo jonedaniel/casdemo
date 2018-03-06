@@ -78,6 +78,7 @@ public class SsotestApplication {
 
             if (StringUtils.hasLength(service)) {
                 String ticket = UUID.randomUUID().toString().substring(0, 6);
+                System.out.println(ticket);
                 redisUtil.set(ticket, "ticket", 1000 * 10L);
                 String[] split = service.split("/");
                 StringBuilder domain = new StringBuilder(10);
