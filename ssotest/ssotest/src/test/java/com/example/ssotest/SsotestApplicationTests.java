@@ -16,6 +16,7 @@ public class SsotestApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println(redisUtil.get("ticket"));
 	}
 
 }
